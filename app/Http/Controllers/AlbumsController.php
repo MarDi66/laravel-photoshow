@@ -15,4 +15,9 @@ class AlbumsController extends Controller
     {
         return view('albums.create');
     }
+
+    public function store(Request $request)
+    {
+        dd($request);
+    }
 }
