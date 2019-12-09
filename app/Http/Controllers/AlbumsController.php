@@ -32,7 +32,6 @@ class AlbumsController extends Controller
         $filenameToStore = $filename . '_' . time() . '_' . $extension;
 
         $request->file('cover-image')->storeAs('public/album_covers', $filenameToStore);
-        
 
         $album = new Album();
         $album->name = $request->input('name');
