@@ -18,8 +18,8 @@
         </div>
 
         <div class="form-group">
-            <label for="cover-image">Name</label>
-            <input type="file" class="form-control" name="cover image" id="cover image">
+            <label for="cover-image">Cover image</label>
+            <input type="file" class="form-control" name="cover-image" id="cover-image">
         </div>
         
         <button type="submit" class="btn btn-primary">Submit</button>
